@@ -1,3 +1,4 @@
+>>>>>>> main
 /* NAV REQUIRED RULES */
 nav {
     background-color: #003366;
@@ -53,3 +54,60 @@ footer {
     border-top: 2px solid #003366;
     text-align: center;
 }
+=======
+/* NAV REQUIRED RULES */
+nav {
+    background-color: #003366;
+    padding: 20px;
+}
+
+nav a {
+    color: white;
+    padding: 15px;
+    display: block;
+}
+
+/* MAIN REQUIRED RULES */
+main {
+    max-width: 600px;
+}
+
+h1 {
+    color: #003366;
+}
+
+main img {
+    width: 200px;
+    height: auto;
+    border: 2px solid #003366;
+    padding: 5px;
+    box-shadow: 0 0 10px gray;
+}
+
+/* ASIDE REQUIRED RULES */
+aside {
+    width: 300px;
+    margin: 20px;
+    border: 1px solid #003366;
+    padding: 10px;
+    background-color: #cce6ff;
+    color: #003366;
+}
+
+aside img {
+    width: 200px;
+    height: auto;
+}
+
+/* PARAGRAPH RULE */
+p {
+    padding: 0;
+}
+
+/* FOOTER REQUIRED RULES */
+footer {
+    margin-top: 30px;
+    border-top: 2px solid #003366;
+    text-align: center;
+}
+>>>>>>> 2ed57522acee88121844f86cbfd873bf14b39cb2
