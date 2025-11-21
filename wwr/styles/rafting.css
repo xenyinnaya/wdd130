@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #1a4a5a;
+}
+
+header .logo {
+    width: 120px;
+    height: auto;
+}
+
+nav a {
+    color: white;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #0e2f36;
+}
+
+/* Main content */
+main {
+    max-width: 900px;
+    margin: auto;
+    padding: 1rem;
+}
+
+h1, h2 {
+    color: #1a4a5a;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.team figure {
+    display: inline-block;
+    width: 45%;
+    text-align: center;
+    margin: 10px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 2rem;
+    padding: 1rem;
+    border-top: 2px solid #ddd;
+}
